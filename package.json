@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node bot.js"
-    "test": "happy"
+    "start": "node bot.js",
+    "test": "happy",
   },
   "license": "ISC"
 }
