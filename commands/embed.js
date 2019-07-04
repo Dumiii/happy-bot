@@ -16,7 +16,7 @@ module.exports = {
 			if(argsChecker[0] !== ('<') && argsChecker[1] !== ('@') && argsChecker[argsChecker.length - 1] !== ('>'))
 			{
 				return message.reply('Incorrect usage, either mention someone or don\'t give any arguments.');
-			}aye!
+			}
 		}
 
 		if (message.mentions.users.size > 1) return message.reply('I can only display one server card at a time.');
